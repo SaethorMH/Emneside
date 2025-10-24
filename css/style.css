@@ -1,0 +1,99 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/*******************************************/
+* {
+  color: goldenrod;
+}
+
+body {
+  background-color: black;
+}
+header {
+  background-color: rgb(25, 25, 25);
+}
+main {
+  background-image: repeating-linear-gradient(
+    to right,
+
+    rgb(88, 67, 14) 0px,
+    black 3px,
+    black 28px
+  );
+}
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.701), rgba(0, 0, 0, 0.675)),
+    url("/photos/footerbg.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 500px;
+  height: 200px;
+}
+.link:hover {
+  cursor: pointer;
+}
+
+h1 {
+  font-family: Notable;
+  text-align: center;
+}
+h2 {
+  font-family: Cinzel;
+  line-height: 1.1rem;
+}
+p {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+}
+.hero_carosel {
+  background-color: black;
+}
+
+.stars {
+  border-style: inset;
+  border-color: goldenrod;
+  margin: 0 30px;
+  img {
+    max-width: 25px;
+  }
+}
+.film_poster {
+  place-self: center;
+  width: 50%;
+  margin: 20px auto;
+}
+.tid {
+  text-align: center;
+  background-color: goldenrod;
+  width: 100px;
+  border-radius: 5px;
+  padding: 0 20px;
+  p {
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+}
+.tid > :last-child {
+  font-size: 1rem;
+  color: rgb(91, 68, 12);
+}
+.tid:hover {
+  background-color: gold;
+}
+.vi {
+  text-align: center;
+}
